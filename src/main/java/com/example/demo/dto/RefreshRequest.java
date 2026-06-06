@@ -1,4 +1,4 @@
 package com.example.demo.dto;
 
-public record RefreshRequest() {
+public record RefreshRequest(String refreshtoken) {
 }

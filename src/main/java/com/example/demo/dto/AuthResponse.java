@@ -1,4 +1,4 @@
 package com.example.demo.dto;
 
-public record AuthResponse() {
+public record AuthResponse(String accesstoken,String Refreshtoken) {
 }

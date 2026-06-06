@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: demo
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: myStrongPassword
+
+logging:
+  level:
+    org.springframework.securtiy: DEBUG
